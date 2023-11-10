@@ -5,7 +5,7 @@ import MenuItem from '../MenuItem/page';
 const navbar = () => {
   return (
     <nav>
-      <h1>Navbar ---parent</h1>
+      <h1>Navbar ---parent component</h1>
       <MenuItem />
     </nav>
   );

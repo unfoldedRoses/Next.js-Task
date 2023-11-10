@@ -6,7 +6,7 @@ Project Overview:
 This project demonstrates a basic implementation of a nested UI structure using Next.js and React components. The structure includes a Navbar component that links to a MenuItem component, and the MenuItem component, in turn, links to a SubMenuItem component.
 
 GitHub Repository:
-Link to GitHub Repository
+https://github.com/unfoldedRoses/Next.js-Task
 
 Instructions for Running the Project Locally:
 
@@ -20,6 +20,7 @@ Routes:
 
     http://localhost:3000/components/navbar: Demonstrates the Navbar component.
     http://localhost:3000/components/menuItem: Demonstrates the MenuItem component.
+    http://localhost:3000/components/SubMenuItem Demonstrates the SubMenuItem component
 
 Project Structure:
 

@@ -1,14 +1,23 @@
-// components/Navbar.js
 import React from 'react';
 import MenuItem from '../MenuItem/page';
 
-const navbar = () => {
+const Navbar = () => {
+  const navbarStyle = {
+    background: '#f0f0f0',
+    padding: '10px',
+    borderBottom: '1px solid #ccc',
+  };
+
+  const headingStyle = {
+    color: '#333',
+  };
+
   return (
-    <nav>
-      <h1>Navbar ---parent component</h1>
+    <nav style={navbarStyle}>
+      <h1 style={headingStyle}>Navbar ---parent component</h1>
       <MenuItem />
     </nav>
   );
 };
 
-export default navbar;
+export default Navbar;

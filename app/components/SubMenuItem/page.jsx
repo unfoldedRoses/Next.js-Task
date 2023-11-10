@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 const SubMenuItem = () => {
-  return (
-    <div><h1>SubMenuItem sub-child Component</h1></div>
-  )
-}
+  const subMenuItemStyle = {
+    border: '1px solid #ddd',
+    padding: '8px',
+    margin: '8px',
+  };
 
-export default SubMenuItem
+  const headingStyle = {
+    color: '#333',
+  };
+
+  return (
+    <div style={subMenuItemStyle}>
+      <h1 style={headingStyle}>SubMenuItem sub-child Component</h1>
+    </div>
+  );
+};
+
+export default SubMenuItem;
